@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" ,="" initial-scale="1">
+        <link rel="stylesheet" href="w3.css">
+        <title>NARUTO</title>
+    </head>
+    <body>
+        <div class="w3-container w3-black">
+            <center>
+                <img src="benner.jpg" style="width: 40%;">
+            </center>
+        </div>
+        <div class="w3-bar w3-deep-orange">
+            <button class="w3-bar-item w3-button" onclick="openKota('HOME')">HOME</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('NARUTO')">NARUTO</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('SASUKE')">SASUKE</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('SAKURA')">SAKURA</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('SAI')">SAI</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('KIBA')">KIBA</button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-bar-item w3-button" onclick="openKota('ABOUT')">ABOUT</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <button class="w3-bar-item w3-button w3-round-xxlarge" onclick="openKota('PROFILE')">PROFILE</button>
+                    <button class="w3-bar-item w3-button w3-round-xxlarge" onclick="openKota('HOME')">HOME</button>
+                </div>
+            </div>
+        </div>
+        <div id="HOME" class="w3-container kota" style="display: block; background-image: url(&quot;backround.jpg&quot;); background-size: cover;">
+            <div class="w3-row" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6);">
+                <center>
+                    <div class="w3-container w3-animate-top">
+                        <h1><b>TEMAN-TEMAN NARUTO</h1>
+                    </div>
+                    <div class="w3-container w3-animate-bottom">
+                            <img src="naruto.png" style="width: 25%;">
+                            <img src="sasuke.png" style="width: 25%;">
+                            <img src="sakura.png" style="width: 25%;">
+                            <img src="sai.png" style="width: 45%;">
+                            <img src="kiba.png" style="width: 25%;">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div id="NARUTO" class="w3-container kota" style="display: none; background-image: url(&quot;backround.jpg&quot;); background-size: cover;">
+            <div class="w3-row" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6);">
+                <center>
+                    <div class="w3-container w3-animate-left w3-half">
+                            <img src="naruto.png" style="width: 80%;">
+                    </div>
+                    <div class="w3-container w3-animate-right w3-half" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: justify;">
+                        <h1><b>NARUTO</b></h1>
+                        <p style="font-size: large; text-align: justify;">
+                            Naruto Uzumaki <br>
+                            (うずまきナルト Uzumaki Naruto) yang bergelar Hokage Ketujuh (7番目の火影 Nanadaime Hokage) adalah tokoh utama dari serial anime dan manga Naruto. Ia merupakan tokoh utama dalam serial ini. Ia digambarkan sebagai bocah berambut pirang dan bermata biru. Di pipinya ada semacam guratan yang mirip seperti kumis milik karakter Doraemon dalam manga Doraemon. Ia sering terlihat memakai jaket dan celana panjang berwarna jingga. Di dahinya ada ikat kepala berwarna biru dengan lambang desa kelahirannya.</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div id="SASUKE" class="w3-container kota" style="display: none; background-image: url(&quot;backround.jpg&quot;); background-size: cover;">
+            <div class="w3-row" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6);">
+                <center>
+                    <div class="w3-container w3-animate-left w3-half">
+                            <img src="sasuke.png" style="width: 80%;">
+                    </div>
+                    <div class="w3-container w3-animate-top w3-half" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: justify;">
+                        <h1><b>SASUKE</b></h1>
+                        <p style="font-size: large; text-align: justify;">
+                            Sasuke Uchiha <br>
+                            (うちはサスケ Uchiha Sasuke) adalah seorang karakter fiktif dari komik dan anime Naruto. Nama depan Sasuke, konon berasal dari nama seorang ninja legendaris, Sarutobi Sasuke. Sedangkan nama belakangnya, "Uchiha" dibaca sebagai "uchiwa", atau "kipas kertas" (kipas yang terbuat dari kertas). Pada zaman Jepang Kuno, uchiwa sering kali dipakai dalam upacara kerajaan, sebagai suvenir, atau digunakan untuk melindungi prajurit dari serangan anak panah. Namun, menurut filosofi dalam komik Naruto, "uchiwa" adalah sebuah kipas yang mampu mengobarkan bara menjadi api, yang menggambarkan kemampuan klan Uchiha yang mampu mendidik keturunan mereka menjadi seorang ninja yang hebat</p>
+                        </div>
+                </center>
+            </div>
+        </div>
+        <div id="SAKURA" class="w3-container kota" style="display: none; background-image: url(&quot;backround.jpg&quot;); background-size: cover;">
+            <div class="w3-row" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6);">
+                <center>
+                    <div class="w3-container w3-animate-bottom w3-half">
+                            <img src="sakura.png" style="width: 80%;">
+                    </div>
+                    <div class="w3-container w3-animate-top w3-half" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: justify;">
+                        <h1><b>SAKURA</b></h1>
+                        <p style="font-size: large; text-align: justify;">
+                            Sakura Haruno <br>
+                            (Jepang: 春野サクラ) adalah tokoh fiksi dari serial manga dan anime Naruto. Ia merupakan seorang ninja wanita (kunoichi) cantik yang tergabung dalam Tim 7 bersama Naruto Uzumaki dan Sasuke Uchiha di bawah bimbingan Kakashi Hatake. Ia juga merupakan seorang ninja medis di bawah bimbingan Tsunade Senju. Dan ia sangat berguna di tim dalam perannya sebagai ninja medis. Dalam Medan pertempuran perang dunia Shinobi, dia sangat berguna dengan kemampuan medisnya dengan memanggil kuchiose Katsuyu. Tetapi dalam hal bertarung seringkali Sakura Haruno menjadi beban untuk tim terutamanya bagi Naruto dan Sasuke, karena dia selalu berada dibayang-bayang mereka. Seiring berjalannya waktu Sakura Haruno menjadi kunoichi yang dapat diandalkan dan bukan lagi menjadi seorang beban, dengan berlatih keras dia mampu membuktikan bahwa dia bisa menjadi lebih kuat.</p>
+                </center>
+            </div>
+        </div>
+        <div id="SAI" class="w3-container kota" style="display: none; background-image: url(&quot;backround.jpg&quot;); background-size: cover;">
+            <div class="w3-row" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6);">
+                <center>
+                    <div class="w3-container w3-animate-zoom w3-half">
+                            <img src="sai.png" style="width: 80%;">
+                    </div>
+                    <div class="w3-container w3-animate-zoom w3-half" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: justify;">
+                        <h1><b>SAI</b></h1>
+                        <p style="font-size: large; text-align: justify;">
+                            Sai <br>
+                            (サイ Sai) adalah salah satu tokoh manga dan anime Naruto. Dia adalah seorang Anbu dari roots yang tidak memiliki perasaan. Kemunculan Sai dianggap sebagai pengganti Sasuke yang membelot ke pihak Orochimaru.</p>
+                        </div>
+                </center>
+            </div>
+        </div>
+        <div id="KIBA" class="w3-container kota" style="display: none; background-image: url(&quot;backround.jpg&quot;); background-size: cover;">
+            <div class="w3-row" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6);">
+                <center>
+                    <div class="w3-container w3-animate-opacity w3-half">
+                            <img src="kiba.png" style="width: 80%;">
+                    </div>
+                    <div class="w3-container w3-animate-opacity w3-half" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: justify;">
+                        <h1><b>KIBA</b></h1>
+                        <p style="font-size: large; text-align: justify;">
+                            Kiba Inuzuka <br>
+                            (犬塚キバ Inusuka Kiba) adalah salah satu karakter dalam cerita fiksi dan manga Naruto. Inuzuka bisa diartikan "klan/perkumpulan anjing" yang dipakai sebagai salah satu nama klan yang cukup kuat pada zaman Edo. Mereka dikenal sebagai "pejuang anjing" dan menyembah "Inu" atau anjing dalam perlambangan zodiak. "inuzuka" juga sebuah nama dalam cerita Hakkenden, novel seekor samurai anjing. "Kiba" berarti "taring".</p>
+                        </div>
+                </center>
+            </div>
+        </div>
+        <div id="PROFILE" class="w3-container kota w3-white" style="display: none;">
+            <div class="w3-row" style="margin: 10px; background-color: rgb(255, 255, 255);">
+                <center>
+                    <div class="w3-container w3-animate-opacity">
+                        <img src="mei.jpg" style="width: 20%;">
+                    </div>
+                    <div class="w3-container w3-animate-bottom">
+                        <h1>MEDINA MULYANI</h1>
+                        <h2>10122492</h2>
+                        <h2>IF-4</h2>
+                    </div>
+        <script>
+            function openKota(namakota) {
+                var i;
+                var x = document.getElementsByClassName("kota");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                document.getElementById(namakota).style.display = "block"
+            }
+        </script>
+    </body>
+</html>
